@@ -1,13 +1,18 @@
+helm package litmus/
+sha=`sha256sum litmus-2.0.0.tgz |awk '{print $1}'`
+
+cat <<EOF > index.yaml
 apiVersion: v1
 entries:
   litmus:
   - apiVersion: v1
     appVersion: "2.0.0"
-    created: 2021-08-23T16:06:59+02:00
+    created: `date -Is`
     description: A Helm chart for litmus
-    digest: 613d2664e9373284c54d0c535faf2a7a00c9ee3bce68e28979d3e64411a79b65
+    digest: $sha
     name: litmus
     urls:
     - litmus-2.0.0.tgz
     version: 2.0.0
-generated: 2021-08-23T16:06:59+02:00
+generated: `date -Is`
+EOF
