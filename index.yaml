@@ -3,11 +3,11 @@ entries:
   litmus:
   - apiVersion: v1
     appVersion: "2.0.0"
-    created: 2021-08-23T16:47:44+02:00
+    created: 2021-08-23T16:49:28+02:00
     description: A Helm chart for litmus
-    digest: 9661db6ed6d274d40d16696409cb800aeddfcff4406f1652c1ff8e93ddea7c4b
+    digest: 399cb5cad8f9c37d238397e0b43a7402ad7d3b0ac99192f19610bcf6c4a92acb
     name: litmus
     urls:
     - litmus-2.0.0.tgz
     version: 2.0.0
-generated: 2021-08-23T16:47:44+02:00
+generated: 2021-08-23T16:49:28+02:00

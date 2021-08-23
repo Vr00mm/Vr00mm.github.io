@@ -44,7 +44,7 @@ spec:
             name: litmusportal-frontend
             port:
               number: 9091
-      - path: {{ .Values.ingress.host.paths.backend }}
+      - path: {{ .Values.ingress.host.paths.server }}
         pathType: ImplementationSpecific
         backend:
           service: 
@@ -56,7 +56,7 @@ spec:
         backend:
           serviceName: litmusportal-frontend
           servicePort: 9091
-      - path: {{ .Values.ingress.host.paths.backend }}
+      - path: {{ .Values.ingress.host.paths.server }}
         backend: 
           serviceName: litmusportal-server
           servicePort: 9002
