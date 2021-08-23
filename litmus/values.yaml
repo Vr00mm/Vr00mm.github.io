@@ -40,7 +40,7 @@ ingress:
       # -- You may need adapt the path depending your ingress-controller
       frontend: /(.*)
       # -- You may need adapt the path depending your ingress-controller
-      backend: /backend/(.*)
+      server: /backend/(.*)
   tls: []
   #  - secretName: chart-example-tls
   #    hosts: []
