@@ -131,11 +131,11 @@ portal:
         LITMUS_CHAOS_RUNNER_IMAGE: "chaos-runner:2.0.0"
         LITMUS_CHAOS_EXPORTER_IMAGE: "chaos-exporter:2.0.0"
       genericEnv:
-        SELF_CLUSTER: "true"
+        SELF_CLUSTER: "false"
         SERVER_SERVICE_NAME: "litmusportal-server-service"
         PORTAL_ENDPOINT: "http://litmusportal-server-service:9002"
         CONTAINER_RUNTIME_EXECUTOR: "k8sapi"
-        HUB_BRANCH_NAME: "v2.0.x"
+        HUB_BRANCH_NAME: "v2.0.0"
         AGENT_DEPLOYMENTS: "[\"app=chaos-exporter\", \"name=chaos-operator\", \"app=event-tracker\", \"app=workflow-controller\"]"
       resources: {}
       # We usually recommend not to specify default resources and to leave this as a conscious

@@ -5,7 +5,7 @@ entries:
     appVersion: "2.0.0"
     created: 2021-08-23T11:41:54+02:00
     description: A Helm chart for litmus
-    digest: 691cd75b40ba7e609ce6d9836acfd78ca5784b23ae9b6ca7064d4613b1d53966
+    digest: 3f2b60ac1b0cffb0cd1cd5b7574221e8b65b08051197efc4a9145c6e2881aa1a
     name: litmus
     urls:
     - litmus-2.0.0.tgz
