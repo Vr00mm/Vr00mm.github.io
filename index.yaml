@@ -1,13 +1,13 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
+  litmus:
   - apiVersion: v1
-    appVersion: "1.0"
+    appVersion: "2.0.0"
     created: 2021-08-23T11:41:54+02:00
-    description: A Helm chart for Kubernetes
+    description: A Helm chart for litmus
     digest: 691cd75b40ba7e609ce6d9836acfd78ca5784b23ae9b6ca7064d4613b1d53966
-    name: helm-chart-test
+    name: litmus
     urls:
-    - helm-chart-test-0.1.0.tgz
+    - litmus-2.0.0.tgz
     version: 2.0.0
 generated: 2021-08-23T11:41:54+02:00
